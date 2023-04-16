@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kieta 模写コーディング</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-wrapper">
+            <div class="header-left">
+                <h1>
+                    <img src="images/スクリーンショット_2023-04-12_131914-removebg-preview.png" class="header-img">
+                </h1>
+                <p class="hd-h1">KieKa</p>
+            </div>
+            <div class="header-right">
+                <div class="i"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div class="i"><i class="fa-solid fa-cart-shopping"></i></div>
+                <div class="hamburger">
+                    <!-- ハンバーガーメニューの線 -->
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <!-- /ハンバーガーメニューの線 -->
+                </div>
+            </div>
+            <ul class="slide-menu">
+                <li>Home</li>
+                <li>About</li>
+                <li>Category
+                    <ul>
+                        <li>-sumika</li>
+                        <li>-sumika dried flower</li>
+                        <li>-tsuyabana dried flower</li>
+                        <li>-tyuyabana</li>
+                        <li>-kyoka</li>
+                        <li>-option</li>
+                        <li>-sesonal/期間限定</li>
+                    </ul>
+                </li>
+                <li>News</li>
+                <li>Contact</li>
+                <li><i class="fa-solid fa-cart-shopping"></i></li>
+                <li> <i class="fa-solid fa-magnifying-glass"></i></li>
+                <li>TEL - 042-312-4016</li>
+            </ul>
+        </div>
+    </header>
+    <section id="first-view">
+        <div class="fv">
+            <h2>花が叶える、夢もある<span>There are dreams for flowers to come true.</span></h2>
+            <div class="scroll-text">
+                <p class="scroll">scroll</p>
+            </div>
+
+        </div>
+        <div class="fv-bg">
+            <img src="images/image-Slide1_5ca1e9da3e73e.jpg" alt="">
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-K">
+            <h3>ABOUT<span>KeiKaとは？</span></h3>
+            <p class="about-text">
+                豊かな暮らしを育む一端として、"長く愛される花の文化を作りたい"という想いから多<br>くの可能性を探り、レジンテコールを作り出しました。消費される世の中だからこそ、<br>花から生まれるコミュニケーションや豊かな生活を大事にしてほしい。その時間が長く<br>あり続けけてほしい。そんな想いを込めて、花にまつわる文化を作り出しています。
+            </p>
+            <div class="more-btn">
+                <p>and more...</p>
+            </div>
+        </div>
+        <div class="about-img">
+            <img src="images/image-conceptImg_5ca6b918f3656.jpg" alt="">
+        </div>
+    </section>
+    <section id="product">
+        <h3>PRODUCTS<span>取り扱い商品一覧</span></h3>
+        <div class="products">
+            <div class="products-item 01">
+                <img src="images/d6a10edce6503f5d657756e50dcee711.jpg">
+                <p class="product-name">sumika M <span>salade ポピーピンク</span></p>
+                <p class="fee">￥18,700</p>
+            </div>
+            <div class="products-item 01">
+                <img src="images/0161d96e9fcc4f34bd8077fc971cd68a.jpg">
+                <p class="product-name">sumika M <span>salade ポピーピンク</span></p>
+                <p class="fee">￥18,700</p>
+            </div>
+            <div class="products-item 01">
+                <img src="images/e2ea3192635938df461fa79d88094198.jpg">
+                <p class="product-name">sumika M <span>salade ポピーピンク</span></p>
+                <p class="fee">￥18,700</p>
+            </div>
+            <div class="products-item 02">
+                <img src="images/afc2be51180268c5eb9f2d46d600f9b8.jpg">
+                <p class="product-name">sumika M <span>salade ポピーピンク</span></p>
+                <p class="fee">￥18,700</p>
+            </div>
+            <div class="products-item 02">
+                <img src="images/d7ba1016f4826e5336f1eb463489f48a.jpg">
+                <p class="product-name">sumika M <span>salade ポピーピンク</span></p>
+                <p class="fee">￥18,700</p>
+            </div>
+            <div class="products-item 02">
+                <img src="images/32ccaeb3b6c22cff4f1e4c0b530479b8.jpg">
+                <p class="product-name">sumika M <span>salade ポピーピンク</span></p>
+                <p class="fee">￥18,700</p>
+            </div>
+            <div class="products-item 07">
+                <img src="images/4bdb7ca975209a4d06f5300a41894746.jpg">
+                <p class="product-name">sumika M <span>salade ポピーピンク</span></p>
+                <p class="fee">￥18,700</p>
+            </div>
+            <div class="products-item 08">
+                <img src="images/81bcb7b2d44584a6c4dac773a81ebfcd.jpg">
+                <p class="product-name">sumika M <span>salade ポピーピンク</span></p>
+                <p class="fee">￥18,700</p>
+            </div>
+            <div class="products-item 09">
+                <img src="images/9aa079e46d965a1b14bf38cfef2d8c6e.jpg">
+                <p class="product-name">sumika M <span>salade ポピーピンク</span></p>
+                <p class="fee">￥18,700</p>
+            </div>
+            <div class="products-item 10">
+                <img src="images/82bd6f93571d62b3ed28b640ef3b4aa4.jpg">
+                <p class="product-name">sumika M <span>salade ポピーピンク</span></p>
+                <p class="fee">￥18,700</p>
+            </div>
+            <div class="products-item 11">
+                <img src="images/afdede4c24ae3bcfa503b4f0ae4051c2.jpg">
+                <p class="product-name">sumika M <span>salade ポピーピンク</span></p>
+                <p class="fee">￥18,700</p>
+            </div>
+            <div class="products-item 12">
+                <img src="images/314ecbd3193f912d69f866495f0bda78.jpg">
+                <p class="product-name">sumika M <span>salade ポピーピンク</span></p>
+                <p class="fee">￥18,700</p>
+            </div>
+            <div class="products-item 13">
+                <img src="images/314ecbd3193f912d69f866495f0bda78.jpg">
+                <p class="product-name">sumika M <span>salade ポピーピンク</span></p>
+                <p class="fee">￥18,700</p>
+            </div>
+            <div class="products-item 14">
+                <img src="images/314ecbd3193f912d69f866495f0bda78.jpg">
+                <p class="product-name">sumika M <span>salade ポピーピンク</span></p>
+                <p class="fee">￥18,700</p>
+            </div>
+            <div class="products-item 15">
+                <img src="images/314ecbd3193f912d69f866495f0bda78.jpg">
+                <p class="product-name">sumika M <span>salade ポピーピンク</span></p>
+                <p class="fee">￥18,700</p>
+            </div>
+            <div class="products-item 16">
+                <img src="images/314ecbd3193f912d69f866495f0bda78.jpg">
+                <p class="product-name">sumika M <span>salade ポピーピンク</span></p>
+                <p class="fee">￥18,700</p>
+            </div>
+            <div class="products-item 17">
+                <img src="images/314ecbd3193f912d69f866495f0bda78.jpg">
+                <p class="product-name">sumika M <span>salade ポピーピンク</span></p>
+                <p class="fee">￥18,700</p>
+            </div>
+            <div class="products-item 18">
+                <img src="images/314ecbd3193f912d69f866495f0bda78.jpg">
+                <p class="product-name">sumika M <span>salade ポピーピンク</span></p>
+                <p class="fee">￥18,700</p>
+            </div>
+            <div class="products-item 19">
+                <img src="images/314ecbd3193f912d69f866495f0bda78.jpg">
+                <p class="product-name">sumika M <span>salade ポピーピンク</span></p>
+                <p class="fee">￥18,700</p>
+            </div>
+            <div class="products-item 20">
+                <img src="images/314ecbd3193f912d69f866495f0bda78.jpg">
+                <p class="product-name">sumika M <span>salade ポピーピンク</span></p>
+                <p class="fee">￥18,700</p>
+            </div>
+            <div class="products-item 21">
+                <img src="images/314ecbd3193f912d69f866495f0bda78.jpg">
+                <p class="product-name">sumika M <span>salade ポピーピンク</span></p>
+                <p class="fee">￥18,700</p>
+            </div>
+            <div class="products-item 22">
+                <img src="images/314ecbd3193f912d69f866495f0bda78.jpg">
+                <p class="product-name">sumika M <span>salade ポピーピンク</span></p>
+                <p class="fee">￥18,700</p>
+            </div>
+            <div class="products-item 23">
+                <img src="images/314ecbd3193f912d69f866495f0bda78.jpg">
+                <p class="product-name">sumika M <span>salade ポピーピンク</span></p>
+                <p class="fee">￥18,700</p>
+            </div>
+            <div class="products-item 24">
+                <img src="images/314ecbd3193f912d69f866495f0bda78.jpg">
+                <p class="product-name">sumika M <span>salade ポピーピンク</span></p>
+                <p class="fee">￥18,700</p>
+            </div>
+        </div>
+        <div class="more-btn">
+            <p>VIEW MORE</p>
+        </div>
+        <div class="brand">
+            <h4>現在取り扱っているブランドはこちら</h4>
+            <ul class="brand-list">
+                <li>sumika</li>
+                <li>sumika</li>
+                <li>sumika</li>
+                <li>sumika</li>
+                <li>sumika</li>
+                <li>sumika</li>
+                <li>sumika</li>
+            </ul>
+        </div>
+        <div class="about-company">
+            <div class="story">
+                <p>KeiKaにまつわるSTORY</p>
+            </div>
+            <div class="company">
+                <p>事業展開</p>
+            </div>
+        </div>
+    </section>
+    <section id="news">
+        <h3>NEWS<span>お知らせ</span></h3>
+        <dl>
+            <dt>2023<span>04.10</span></dt>
+            <dd>イベントのお知らせ</dd>
+        </dl>
+        <dl>
+            <dt>2023<span>01.31</span></dt>
+            <dd>Kieka OPEN DAY お知らせ</dd>
+        </dl>
+        <dl>
+            <dt>2023<span>01.14</span></dt>
+            <dd>"冬のSALE"のお知らせ</dd>
+        </dl>
+        <dl>
+            <dt>2022<span>12.17</span></dt>
+            <dd>BASE 20%割引クーポン 明日まで</dd>
+        </dl>
+        <dl>
+            <dt>2022<span>11.24</span></dt>
+            <dd>【11/25~27限定】10執念記念「10%OFFクーポンキャンペーン」のお知らせ</dd>
+        </dl>
+        <dl>
+            <dt>2022<span>11.13</span></dt>
+            <dd>"しめ縄かざり"の予約販売がスタートしました</dd>
+        </dl>
+        <div class="more-btn">
+            <p>and more...</p>
+        </div>
+        <div id="scrollToTopButton" class="scroll">
+            <p>TOP</p>
+        </div>
+    </section>
+    <footer>
+        <div class="ft-left">
+            <div class="ft-logo">
+                <p>KieKa</p>
+                <img src="images/スクリーンショット_2023-04-12_131914-removebg-preview.png" class="header-img">
+            </div>
+            <p class="policy">プライバシーポリシー</p>
+            <p class="law">特定商取引法に基づく表記</p>
+        </div>
+        <div class="ft-right">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <p class="copy"><small>©2019 KieKa Ltd.</small></p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ reset: false, distance: "50px" });
+        ScrollReveal().reveal('#about', {
+            delay: 500, origun: "bottom", duration: 1000, //アニメーションの速度
+        });
+        ScrollReveal().reveal('#product h3', {
+            delay: 500, origun: "bottom", duration: 1000, //アニメーションの速度
+        });
+        ScrollReveal().reveal('.products-item', {
+            delay: 500, origun: "bottom", duration: 1000, //アニメーションの速度
+        });
+        ScrollReveal().reveal('.more-btn', {
+            delay: 500, origun: "bottom", duration: 1000, //アニメーションの速度
+        });
+        ScrollReveal().reveal('.brand', {
+            delay: 500, origun: "bottom", duration: 1000, //アニメーションの速度
+        });
+        ScrollReveal().reveal('.about-company', {
+            delay: 500, origun: "bottom", duration: 1000, //アニメーションの速度
+        });
+        ScrollReveal().reveal('#news h3', {
+            delay: 500, origun: "bottom", duration: 1000, //アニメーションの速度
+        });
+        ScrollReveal().reveal('#news dl', {
+            delay: 500, origun: "bottom", duration: 1000, //アニメーションの速度
+        });
+        ////ここからスムーススクロール////
+        // スムーススクロールの関数
+        function smoothScrollToTop(duration) {
+            const targetPosition = 0; // スクロールの目標位置をトップに設定
+            const startPosition = window.pageYOffset; // 現在のスクロール位置を取得
+            const distance = targetPosition - startPosition; // 目標位置までの距離を計算
+            const startTime = performance.now(); // アニメーション開始時刻を取得
+
+            // アニメーションの更新と制御を行う関数
+            function scrollAnimation(currentTime) {
+                const elapsedTime = currentTime - startTime; // 経過時間を計算
+                const scrollPosition = easeInOut(elapsedTime, startPosition, distance, duration); // スクロール位置を計算
+                window.scrollTo(0, scrollPosition); // スクロール位置を更新
+
+                if (elapsedTime < duration) {
+                    // アニメーションが終了していなければ再帰的に呼び出し
+                    requestAnimationFrame(scrollAnimation);
+                }
+            }
+
+            // イージング関数（ここではeaseInOutQuadを使用）
+            function easeInOut(t, b, c, d) {
+                t /= d / 2;
+                if (t < 1) return c / 2 * t * t + b;
+                t--;
+                return -c / 2 * (t * (t - 2) - 1) + b;
+            }
+
+            // アニメーションの開始
+            requestAnimationFrame(scrollAnimation);
+        }
+        // スクロールトリガーの要素を取得
+        const scrollToTopButton = document.getElementById('scrollToTopButton');
+
+        // スクロールトリガーにクリックイベントリスナーを追加
+        scrollToTopButton.addEventListener('click', function () {
+            smoothScrollToTop(1000); // スクロールの所要時間を指定
+        });
+
+    </script>
+</body>
+
+</html>
